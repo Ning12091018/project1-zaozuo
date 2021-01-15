@@ -1,0 +1,255 @@
+/* **********************造作新家题目及导航栏 *****************************/
+.title {
+	width: 1035px;
+	height: 148px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.title .logo2 {
+	width: 1035px;
+	height: 40px;
+	margin-top: 40px;
+}
+
+.title .logo2 p {
+	width: 385px;
+	font-size: 36px;
+	font-weight: 700;
+	float: left;
+	margin-left: 350px;
+	font-family: '微软雅黑';
+	letter-spacing: 5px;
+
+}
+
+.title .logo2 div {
+	width: 25px;
+	height: 25px;
+	float: right;
+	display: block;
+	margin-top: 14px;
+	margin-left: 35px;
+	position: relative;
+	cursor: pointer;
+}
+
+.title .logo2 img {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+}
+
+.title .logo2 div:hover .img2 {
+	display: block;
+}
+
+.title .logo2 .img2 {
+	display: none;
+}
+
+/* ***********************导航栏************************** */
+.title .navigation {
+	width: 100%;
+	margin: 40px auto 0;
+}
+
+.title .navigation  #navUl {
+	list-style: none;
+
+}
+
+.title .navigation  #navUl li {
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	font-size: 14px;
+	color: #313131;
+
+}
+
+.title .navigation  #navUl li a {
+	font-size: 14px;
+	font-weight: 400px;
+	padding: 0 25px 10px;
+	font-weight: 700;
+	color: #313131;
+}
+.title .navigation #navUl li.li1{
+	width: 30px;
+	height: 25px;
+	text-align: left;
+	border-bottom: 2px solid #313131;
+}
+.title .navigation #navUl  li.li1 a {
+	padding: 0 0 10px;
+	
+}
+/* *******************导航栏滑过显示隐藏部分 ***************/
+ .title .navigation  #navUl .isShow{
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	z-index: 200;
+	top:148px;
+	left:0;
+	background-color:#fff;
+	opacity: 0.8;
+	display:none; 
+	line-height: 15px;
+}
+.title .navigation  #navUl .isShow ul {
+	list-style: none;
+	margin: 18px auto;
+	display: flex;
+	justify-content: center;
+}
+
+.title .navigation  #navUl .isShow ul li {
+	float: left;
+	text-align: center;
+	cursor: pointer;
+}
+.title .navigation  #navUl .isShow ul li a {
+	font-size: 12px;
+	font-weight: 400px;
+	padding: 0 15px 10px;
+	font-weight: 700;
+	color:#A0A0A0;
+}
+.title .navigation  #navUl .isShow ul li:hover  a{
+	color: #313131;
+}
+.hidNav{
+	width: 100%;
+	height: 45px;
+	background-color: #313131;
+	position: absolute;
+	top: 200px;
+	display: none;
+	
+}
+.hidNav .logo{
+	display: block;
+	width: 25px;
+	height: 25px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 50px;
+	cursor: pointer;
+}
+.hidNav #hid1 {
+	width: 60%;
+	height: 100%;
+	list-style: none;
+	float: left;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+.hidNav #hid1 li {
+	height: 100%;
+	float: left;
+	text-align: center;
+	font-size: 13px;
+	color: #fff;
+	cursor: pointer;
+
+}
+.hidNav #hid1 li a {
+	font-size: 13px;
+	font-weight: 400px;
+	padding: 0 10px 10px;
+	color: #fff;
+	
+}
+.hidNav #hid1 li.li1{
+	width: 28px;
+	height: 22px;
+	text-align: left;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+	
+}
+.hidNav #hid1 li.li1 a {
+	padding: 0 0 10px;
+	
+}
+
+.hidNav #hid1 li .isShow{
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	top:40px;
+	left:0;
+	background-color:#313131;
+	opacity: 0.8;
+	display:none; 
+	line-height: 35px;
+}
+.hidNav #hid1 .isShow ul {
+	list-style: none;
+	margin: 8px auto;
+	display: flex;
+	justify-content: center;
+}
+
+.hidNav #hid1 .isShow ul li {
+	float: left;
+	text-align: center;
+	cursor: pointer;
+}
+.hidNav #hid1 .isShow ul li a {
+	font-size: 12px;
+	padding: 0 15px 10px;
+	font-weight: 700;
+	color:#A0A0A0;
+}
+.hidNav #hid1 .isShow ul li:hover  a{
+	color: #fff;
+}
+
+
+.hidNav #hid2 {
+	width: 28%;
+	height: 40px;
+	list-style: none;
+	float: right;
+	margin-top: 10px;
+	margin-right: 0px;
+}
+.hidNav #hid2  span {
+	color: #FFFFFF;
+	display: block;
+	float: left;
+	margin-top: 2px;
+}
+.hidNav #hid2  li {
+	float: left;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+}
+.hidNav #hid2  li a {
+	font-size: 12px;
+	font-weight: 400px;
+	padding: 0 10px 10px;
+	color: #fff;
+}
+.hidNav #hid2  .li4{
+	position: relative;
+	/* right: 20px; */
+	margin-left: 20px;
+}
+.hidNav #hid2 .li4 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.hidNav #hid2 .li4:hover  .img2 {
+	display: block;
+}
+
+.hidNav #hid2  .li4 .img2 {
+	display: none;
+}

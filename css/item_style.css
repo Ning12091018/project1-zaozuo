@@ -1,0 +1,149 @@
+/************************* 每一个商品设置一个div*************************** */
+ .conListPer {
+	width: 24%;
+	height: 325px;
+	text-align: center;
+	float: left;
+	margin-left: 10px;
+	margin-top: 20px;
+	/* background-color: #00FFFF; */
+	position: relative;
+	cursor: pointer;
+}
+/* 隐藏部分,滑过显示 */
+ .conListPer .perNone {
+	width: 100%;
+	height: 300px;
+	float: left;
+	text-align: center;
+	margin-top: 20px;
+	/* background-color: #00FFFF; */
+	position: absolute;
+	transition: 3s;
+	display: none;
+}
+ .conListPer .perNone .n1 {
+	width: 50%;
+	border: 6px solid #535353;
+	margin: 70px auto;
+	color: #373737;
+	font-size: 15px;
+	padding: 15px 8px;
+}
+ .conListPer .perNone .n2 {
+	width: 80%;
+	height: 50px;
+	list-style: none;
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	left: 10%;
+	border-top:1px solid #A0A0A0;
+}
+ .conListPer .perNone .n2 li {
+	width: 100%;
+	height: 25px;
+	font-size: 12px;
+}
+  .conListPer .perNone .n2 .li1 {
+	font-weight: 600;
+	line-height: 40px;
+}
+/* 商品显示部分 */
+.conListPer .img01 {
+	width: 95%;
+	height: 250px;
+}
+ .conListPer .oH3 {
+	width: 100%;
+	height: 25px;
+}
+ .conListPer .oH3 a {
+	font-size: 16px;
+	display: inline-block;
+	color: #313131;
+}
+.conListPer .oH3 span {
+	display: inline-block;
+	font-size: 12px;
+	/* 字体缩放方法,行标签不可用,ie不兼容 */
+	-webkit-transform-origin-x: 0;
+	transform: scale(0.7);
+	vertical-align: top;
+}
+/* 解决浏览器兼容问题
+.Numsize-font{
+	font-size: 14*0.7px;
+} */
+ .conListPer .conJg {
+	width: 100%;
+	height: 20px;
+	/* 	font-size:16px; */
+}
+ .conListPer .conJg span.pri1 {
+	font-size: 15px;
+	color: red;
+}
+ .conListPer .conJg span.pri2 {
+	font-size: 13px;
+	color: #A0A0A0;
+	text-decoration: line-through;
+}
+ .conListPer .oUl {
+	width: 100%;
+	text-align: center;
+	list-style: none;
+	font-size: 12px;
+	/* border: 1px solid #000000; */
+	/* 弹性框 */
+	display: flex;
+	justify-content: center;
+}
+ .conListPer .oUl .sp1 {
+	width: 60%;
+	background: #ffeded;
+	color: #e56a69;
+	margin-right: 5px;	
+}
+ .conListPer .oUl .sp0 {
+	width: 20%;
+	background: #ffeded;
+	color: #e56a69;
+	margin-right: 5px;
+	
+}
+.conListPer .oUl .sp2{
+	width: 20%;
+	/* height: 20px; */
+	background: #f6f6f6;
+	color: #707070;
+	margin-left: 5px;
+	/* font-size: 12px; */
+	
+}
+/* 商品最后的更多 */
+ .conMore {
+	width: 24%;
+	height: 325px;
+	text-align: center;
+	float: left;
+	margin-left: 10px;
+	margin-top: 20px;
+	/* background-color: #00FFFF; */
+	position: relative;
+}
+ .conMore .more {
+	width: 120px;
+	height: 120px;
+	border: 9px solid #707070;
+	margin: 90px auto;
+}
+ .conMore .more p {
+	font-size: 16px;
+	text-align: center;
+	color: #313131;
+	line-height: 30px;
+}
+ .conMore .more .p1 {
+	margin-top: 32px;
+}
